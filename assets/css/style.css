@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  :root {
+    font-size: 62.5%; /* 1rem = 10px */
+  }
+
+body { 
+    overflow-x: hidden; 
+}
+
+header{
+    background-color: #EEEEEE;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 2rem;
+
+    height: 6.4rem;
+
+    align-items: center;
+}
+
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 3rem;
+}
+
+.logo{
+    margin-right: 1.5rem;
+}
+
+.options{
+    display: flex;
+    gap: 4.4rem;
+
+}
+
+a{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+
+    display: flex;
+    align-items: center;
+
+    color: #162D55;
+}
+
+.botaoHeader{
+    background: #285CA9;
+    border: 1px solid #EEEEEE;
+    border-radius: 6rem;
+
+    height: 3.2rem;
+    width: 9rem;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #ffff;
+}
