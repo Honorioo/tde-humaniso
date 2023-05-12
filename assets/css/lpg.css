@@ -1,0 +1,66 @@
+.landin{
+    display: inline-block;
+}
+
+.sectext{
+    position: absolute;
+    width: 35rem;
+    height: 60rem ;
+    background-image: url("imgs/logofundo.svg");
+    background-size: cover;
+    color: #eeee;
+}
+
+.landin img{
+    position: relative;
+    height: 60rem;
+    width: 13rem;
+    margin-right: -1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.landin .img1{
+    background-image: url("../img/shail-sharma-EGPZ7uvcxZA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 35rem;
+    transition: 1s;
+}
+
+.landin .img2{
+    background-image: url("../img/max-bohme-Skhc2Bm7J4s-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.landin .img3{
+    background-image: url("../img/rifath-photoripey-XGMtwa-zc3s-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.landin .img1:hover{
+    width: 75rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    z-index: 999;
+}
+
+.landin .img2:hover{
+    width: 75rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    z-index: 99;
+
+
+}
+
+.landin .img3:hover{
+    width: 75rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+   
+}
