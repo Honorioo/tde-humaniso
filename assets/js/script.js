@@ -4,6 +4,7 @@ function img1on(x) {
     x.style.width = "75rem";
      }
      function img1out(x){
+
         x.style.height = "60rem";
         x.style.width = "15rem"
     }
